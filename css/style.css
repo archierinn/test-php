@@ -1,0 +1,490 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@font-face {
+  font-family: Montserrat-Black;
+  src: url(../assets/fonts/montserrat/Montserrat-Black.otf);
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../assets/fonts/montserrat/Montserrat-Bold.otf);
+  font-weight:700 !important;
+  font-style:normal;
+}
+@font-face {
+  font-family: Montserrat-Hairline;
+  src: url(../assets/fonts/montserrat/Montserrat-Hairline.otf);
+}
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../assets/fonts/montserrat/Montserrat-Light.otf);
+  font-weight:300 !important;
+  font-style:normal;
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../assets/fonts/montserrat/Montserrat-Regular.otf);
+  font-weight:400;
+  font-style:normal;
+}
+
+/* @font-face {
+  font-family: NunitoSans-Regular;
+  src: url(https://www.niagahoster.co.id/assets/fonts/nunito/NunitoSans-Regular.woff);
+  font-weight:400;
+  font-style:normal;
+}
+@font-face {
+  font-family: NunitoSans-Bold;
+  src: url(https://www.niagahoster.co.id/assets/fonts/nunito/NunitoSans-Bold.woff);
+  font-weight:700 !important;
+  font-style:normal;
+}
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(https://www.niagahoster.co.id/assets/fonts/nunito/NunitoSans-Light.woff);
+  font-weight:300 !important;
+  font-style:normal;
+} */
+
+body, html {
+   font-family: Montserrat-Regular, sans-serif;
+   color: #4d4d4d;
+}
+
+h1, h2, h3 {
+   font-family: Montserrat-Bold, sans-serif !important;
+}
+
+h4, h5, h6 {
+   font-family: Montserrat-Light, sans-serif !important;
+}
+
+.mont-light {
+  font-family: Montserrat-Light !important;
+}
+
+.mont-bold {
+  font-family: Montserrat-Bold !important;
+}
+
+.roboto {
+  font-family: Roboto !important;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+nav {
+  color: #4d4d4d !important;
+  box-shadow: none;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+ul a, nav a {
+  color: #4d4d4d !important;
+  font-family: NunitoSans-Regular !important;
+}
+
+nav a {
+  font-size: 1.25rem !important;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-margin {
+  margin: 0 auto;
+}
+
+.header-text {
+  margin: 10px 0;
+}
+
+.header-text li {
+  padding: 0 15px !important;
+}
+
+.footer-copyright {
+  padding-top: 4px;
+}
+
+.divider {
+  background-color:#f5f5f5;
+  width: 6rem;
+  height: 0.25rem;
+  margin: 0 auto;
+}
+
+.bordered .row {
+  border: 1px solid #f5f5f5;
+  margin: 0;
+  padding: 10px 0
+}
+
+.bordered-blue .row {
+  border: 1px solid #008fee;
+  margin: 0;
+  padding: 10px 0
+}
+
+.no-gutter .col {
+  padding: 0 !important;
+}
+
+.price-text {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+sup.sup {
+  top: -1em;
+}
+
+.icons {
+  margin-right: 0.75rem;
+}
+
+.button {
+  background-color: transparent !important;
+  color: #424242 !important;
+  border: 2px solid #424242 !important;
+  border-radius: 30px;
+  box-shadow: none;
+  text-transform: none;
+  font-weight: bold;
+  height: auto !important;
+  font-family: Roboto, sans-serif !important;
+}
+
+.button-blue {
+  background-color: #008fee !important;
+  color: white !important;
+  border: 1px solid #008fee !important;
+  border-radius: 30px;
+  box-shadow: none;
+  text-transform: none;
+  font-weight: bold;
+  height: auto !important;
+  font-family: Roboto, sans-serif !important;
+}
+
+.button-white {
+  background-color: transparent !important;
+  color: #f5f5f5 !important;
+  border: 2px solid #f5f5f5 !important;
+  border-radius: 30px;
+  box-shadow: none;
+  text-transform: none;
+  font-weight: bold;
+  font-size: larger;
+  height: auto !important;
+  font-family: Roboto, sans-serif !important;
+}
+
+.share {
+  font-weight: lighter !important;
+  color: #424242;
+}
+
+.support {
+  background-color: #22a1f0 !important;
+}
+
+.logo a img {
+  width: 200px;
+  }
+
+.bank-logo ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bank-logo ul li  {
+margin-right: 0.25rem;
+}
+
+.bank-logo ul li img {
+width: 5rem;
+}
+
+.input-group {
+background-color: white !important;
+padding: 0.25rem 0.5rem;
+display: inline-flex;
+justify-content: space-between;
+align-items: center;
+color: black;
+border-radius: 30px;
+margin-top: 0.5rem;
+}
+
+input.form-input {
+background-color: transparent !important;
+border-bottom: none !important;
+width: 50% !important;
+margin: 0 !important;
+padding: 0 0.5rem !important;
+font-family: Roboto, sans-serif !important;
+}
+
+input.form-input:focus {
+border-bottom: none !important;
+box-shadow: none !important;
+}
+
+input.form-input::placeholder {
+  color: #424242 !important;
+}
+
+.button-news {
+padding: 0.25rem 0.25rem;
+font-weight: lighter !important;
+font-family: Roboto, sans-serif !important;
+}
+
+.follow ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+.page-footer {
+  font-family: NunitoSans-Regular, sans-serif !important;
+  background-color: #333;
+}
+
+/**
+ * Bookmark ribbon
+ *
+ * Source: https://codepen.io/andywillekens/pen/zBBpdm
+ */
+
+.bookmark-ribbon{
+	width:26px;
+	height:20px;
+	background-color:#008fee;
+	position:absolute;
+	/* right:100px; */
+  top: 0px;
+  padding: 0 0.5rem;
+  color: white;
+}
+
+.bookmark-ribbon::before{
+  content: '';
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: -13px;
+  border-left: 13px solid #008fee;
+  border-right: 13px solid #008fee;
+  border-bottom: 13px solid transparent;
+}
+
+/**
+ * Corner ribbon
+ *
+ * Source: https://codepen.io/nxworld/pen/oLdoWb
+ */
+
+/* common */
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: 1;
+  content: '';
+  display: block;
+  border: 5px solid #00B359;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 15px 0;
+  background-color: #00B359;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  color: #fff;
+  font: 700 18px/1 'Lato', sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* top left*/
+.ribbon-top-left {
+  margin-top: -10px;
+  margin-left: -10px;
+}
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.ribbon-top-left::before {
+  top: 0;
+  right: 0;
+}
+.ribbon-top-left::after {
+  bottom: 0;
+  left: 0;
+}
+.ribbon-top-left span {
+  right: -25px;
+  top: 30px;
+  transform: rotate(-45deg);
+}
+
+/* JSSocials override css */
+
+.jssocials-share-link {
+  box-shadow: none !important;
+}
+
+.jssocials-share-count-box {
+  padding: 0 1em !important;
+  box-shadow: none;
+}
+
+.jssocials-share-count-box::after {
+  border-color: #f5f5f5 transparent !important;
+}
+
+/**
+ * Round button
+ *
+ * Source: https://stackoverflow.com/a/37373838
+ */
+
+.round-button{
+  min-width: 60px;
+  max-width:120px;
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: transparent !important;
+  color: #f5f5f5 !important;
+  border: 2px solid #f5f5f5 !important;
+  border-radius: 100%;
+  overflow: none;
+  text-align: center;
+  padding:0;
+}
+
+.round-button:before {
+  content:'';
+  display:inline-block;;
+  vertical-align:middle;
+  padding-top:100%;
+}
+
+.round-button svg {
+  margin-bottom: 2px;
+}
+
+/* .box2 {
+  width: auto;
+  margin: 0 auto;
+  border: 1px solid #bdbdbd;
+  padding: 0.25rem 1rem;
+  text-align: center;
+  font-weight: 700;
+  color:  #bdbdbd;
+  font-family: arial;
+  position: relative;
+} */
+
+/* speech bubble 11 */
+
+/* .speech-bubble:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid #bdbdbd;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  left: -11px;
+  top: 10px;
+}
+
+.speech-bubble:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid #f5f5f5;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  left: -8px;
+  top: 10px;
+} */
+
+/* .ribbon {
+  position: absolute;
+  margin-left: -5px; 
+  top: -5px;
+  z-index: 9999;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 150px;
+  padding: 16px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#00B359 0%, #00B359 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; left: -50px;
+}
+.ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #00B359;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #00B359;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #00B359;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #00B359;
+} */
