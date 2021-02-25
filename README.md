@@ -1,9 +1,9 @@
 # Frontend Developer Test
 
-# Dependecies:
+# Dependencies:
 - Web server (Apache or Nginx)
 
 # How to
-- clone this repository
-- place at your htdocs (i.e. /var/www/htdocs)
-- enjoy
+- Clone this repository [(copy here)](https://github.com/archierinn/test-php.git)
+- Place at your htdocs (i.e. /var/www/htdocs)
+- Enjoy
